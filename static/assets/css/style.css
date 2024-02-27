@@ -1,10 +1,14 @@
 body {
   font-family: "Open Sans", sans-serif;
-  color: #777;
+  color: #143732;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 a {
-  color: #75b2aa;
+  color: #b0e0da;
 }
 
 a:hover {
@@ -57,11 +61,11 @@ h6,
   z-index: 997;
   transition: all 0.5s;
   padding: 20px 0;
-  background: #2d6760;
+  background: #256d65;
 }
 
 #header.header-scrolled {
-  background: #1d443f;
+  background: #143732;
   height: 60px;
   padding: 10px 0;
 }
@@ -121,14 +125,14 @@ h6,
   color: #d2ece9;
   padding: 10px 15px;
   transition: 0.3s;
-  font-size: 14px;
+  font-size: 17px;
   font-family: "Open Sans", sans-serif;
 }
 
 .nav-menu a:hover,
 .nav-menu .active > a,
 .nav-menu li:hover > a {
-  color: #9cd5ce;
+  color: #baf6ef;
   text-decoration: none;
 }
 
@@ -168,7 +172,7 @@ h6,
 .nav-menu .drop-down ul a:hover,
 .nav-menu .drop-down ul .active > a,
 .nav-menu .drop-down ul li:hover > a {
-  color: #70b9b0;
+  color: #97d8d1;
 }
 
 .nav-menu .drop-down > a:after {
@@ -199,6 +203,25 @@ h6,
   right: 15px;
 }
 
+.nav-menu .cta-btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 17px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 30px;
+  transition: 0.75s;
+  margin-top: auto;
+  border: 2px solid #9dfef0;
+  color: #8bc6bf;
+}
+
+.nav-menu .cta-btn:hover {
+  background: #70b9b0;
+  border: 2px solid #70b9b0;
+}
+
 @media (max-width: 1366px) {
   .nav-menu .drop-down .drop-down ul {
     left: -90%;
@@ -221,7 +244,7 @@ h6,
   left: -260px;
   width: 260px;
   padding-top: 18px;
-  background: #01292a;
+  background: #002223;
   transition: 0.4s;
 }
 
